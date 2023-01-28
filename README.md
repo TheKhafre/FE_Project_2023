@@ -1,5 +1,5 @@
 # Hey there!
-![This is me](/blogCard/img/project_20230128_1830493-01.png)
+![This is me](/infoCard/img/This_is_me.png)
 
 Hi!😊 I am Tobi Ezekiel. I am a Frontend Software Engineer and because i love to play, this will be my little frontend playground for 2023. 😊😉😎
 
