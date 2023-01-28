@@ -6,7 +6,7 @@ Hi!😊 I am Tobi Ezekiel. I am a Frontend Software Engineer and because i love 
 
 # About the Project
 
-This repository will contain quite aq number of web design pages some full webpage and some just a detachment to show a particular skill. Some of the project i will be building includes:
+This repository will contain quite a number of web design pages (some full webpage and some just a detachment to show a particular skill). Some of the project i will be building includes:
 1. Ecommerce webpage🛒
 1. Food Website🥗🌮
 1. Real Estate website 🏙
@@ -20,16 +20,16 @@ This repository will contain quite aq number of web design pages some full webpa
     1. Countdown
     1. event handler
 1. Other mini projects 📺📡
-    [] Navbars
-    [] Sidebars
-    [] Flexbox
-    [] Gridbox
-    [] cards
-    [] buttons
+    1. Navbars
+    1. Sidebars
+    1. Flexbox
+    1. Gridbox
+    1. cards
+    1. buttons
 ---
 ---
 
 _All the projects in this repo are MIT licensed. therefore, feel free to copy any one that interests you._
 
 **Love, Khafre💕😘** <br>
-# [Send me a mail](mroluwatobilobaezekiel@gmail.com "hey! let's talk")
+# [Say hi on Instagram 😎](https://instagram.com/obakhafre "hey! let's talk")
