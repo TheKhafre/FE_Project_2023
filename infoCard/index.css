@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/*removed margin and padding from the whole elements*/
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ html {
     font-size: 62.5%;
 }
 
+/*set the view to 100% of the viewport on both width and height*/
 .container {
     width: 100%;
     height: 100vh;
@@ -21,6 +23,7 @@ html {
     align-items: center;
 }
 
+/*this css determines how the card is displayed in collapsed view*/
 .blog-card {
     /* width: 55%; */
     /* height: 80%; */
@@ -30,10 +33,14 @@ html {
     border-radius: 2.5rem;
     padding: 2.5rem;
     box-shadow: 0 1.4rem 8rem rgb(98, 98, 98 0.8 );
+    /*the position: relative is invoked when we want to 
+    add an element directly on another like notification count on a bulb*/
     position: relative;
     transition: all 0.5s;
 }
 
+/*this css determines how the card is displayed in expanded view
+the .change is added from the file js*/
 .change.blog-card {
     width: 55%;
     height: 85%;
