@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>min-max</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    
+        /* .max {
+            background-color: rosybrown;
+            max-width: 600px;
+            height: 600px;
+            margin-inline: auto;
+            outline: double;
+            margin-bottom: 40px;
+        }
+        .min {
+            background-color: rebeccapurple;
+            min-width: 100px;
+            height: 600px;
+            margin-inline: auto;
+            outline: double;
+        } */
+
+        header {
+            background-color: papayawhip;
+            padding: 3px;
+            max-width: 100vw;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 1em;
+            /* align-items: center;
+            justify-content: center; */
+        }
+
+        li {
+            font-size: min(26px, 3vw);
+        }
+
+        figure {
+            padding: 5px;
+/*             margin: 5px; */    
+            
+    }
+
+        .couch {
+            max-width: 30%;
+            float: left;
+        }
+
+        p {
+         display: inline;   
+        }
+    </style>
+</head>
+
+<body>
+    <header class="unordered">
+        <nav class="my-nav">
+            <ul class="my-list">
+                <li>Home</li>
+                <li>Product</li>
+                <li>New</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="test-wrap">
+        <figure>
+            <img class="couch" src="../infoCard/img/couch.jpg" alt="couch image">
+        </figure>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum possimus deserunt maiores cupiditate veniam. Incidunt?</p>
+        <p>Soluta doloribus, hic sed reiciendis possimus iure quae, ipsum cumque aut deleniti tempora placeat a?</p>
+        <p>Ipsam illum asperiores sapiente dolorum, magnam nulla numquam itaque molestiae. Cumque reiciendis harum porro ullam!</p>
+        <p>Ipsa cupiditate laudantium cum voluptatem dignissimos ut architecto porro! At animi numquam sit laudantium dolorum.</p>
+    </main>
+<!--     <main class="max">max-width of 600</main>
+    <main class="min">min-width of 100</main> -->
+</body>
+</html>

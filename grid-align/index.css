@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    position: relative;
+    height: 200vh;
+ }
+
+.parent {
+    padding: 40px;
+    display: grid;
+    gap: 1rem;
+    font-size: 5rem;
+/*  grid-auto-rows: 4vw;
+    grid-template-columns: repeat(autofit, minmax(100px, 1fr));*/
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+}
+
+header {
+    background-color: rebeccapurple;
+    display: grid;
+    place-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
