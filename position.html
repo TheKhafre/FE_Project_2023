@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky header</title>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            height: 100vh;
+            position: relative;        
+        }
+
+        .header1 {
+            position: sticky;
+            padding: 4px;
+            top: 0;
+            background-color: rgb(185, 222, 255);
+            text-align: center;
+        }
+        .header2 {
+            position: sticky;
+            padding: 4px;
+            top: 0;
+            background-color: rgb(251, 255, 36);
+            text-align: center;
+        }
+        .header3 {
+            position: sticky;
+            padding: 4px;
+            top: 0;
+            background-color: rgb(255, 68, 230);
+            text-align: center;
+        }
+        .header4 {
+            position: sticky;
+            padding: 4px;
+            top: 0;
+            background-color: rgb(49, 250, 110);
+            text-align: center;
+        }
+
+        .flex {
+            display: flex;
+            gap: 0.3rem;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <a href="#guest">Guest</a>
+        <a href="#class">Masterclass</a>
+        <a href="#exhib">Runway</a>
+        <a href="#award">Awards</a>
+        <a href="#guest">Guest</a>
+        <a href="#class">Masterclass</a>
+        <a href="#exhib">Runway</a>
+        <a href="#award">Awards</a>
+    </div>
+    <section>
+        <header class="header1" id="guest">Guests</header>
+        <h1>This is our section</h1>
+    </section>
+    <section>
+        <header class="header2" id="class">Masterclass</header>
+        <h1>This is our section</h1>
+    </section>
+    <section>
+        <header class="header3" id="exhib">Runway & Exhibition</header>
+        <h1>This is our section</h1>
+    </section>
+    <section>
+        <header class="header4" id="award">Awards</header>
+        <h1>This is our section</h1>
+    </section>
+</body>
+</html>

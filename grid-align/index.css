@@ -4,19 +4,18 @@
     box-sizing: border-box;
 }
 
- body {
-    position: relative;
-    height: 200vh;
- }
-
 .parent {
     padding: 40px;
     display: grid;
     gap: 1rem;
     font-size: 5rem;
-/*  grid-auto-rows: 4vw;
-    grid-template-columns: repeat(autofit, minmax(100px, 1fr));*/
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+div {
+    display: grid;
+    align-items: center;
+    place-content: center;
 }
 
 header {
