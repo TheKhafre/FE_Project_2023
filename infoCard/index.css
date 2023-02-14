@@ -27,7 +27,7 @@ html {
 .blog-card {
     /* width: 55%; */
     /* height: 80%; */
-    width: 52%;
+    min-width: 600px;
     height: 48%;
     background: rgb(98, 98, 98);
     border-radius: 2.5rem;
