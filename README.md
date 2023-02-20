@@ -29,7 +29,7 @@ This repository will contain quite a number of web design pages (some full webpa
 ---
 ---
 
-_All the projects in this repo are MIT licensed. therefore, feel free to copy any one that interests you._
+_All the projects in this repo are MIT licensed. Therefore, feel free to copy any one that interests you._
 
 **Love, Khafre💕😘** <br>
 # [Say hi on Instagram 😎](https://instagram.com/obakhafre "hey! let's talk")

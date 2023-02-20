@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    display: grid;
+    place-content: center;
+}
+
 section {
+    min-width: 800px;
+    max-width: 1400px;
     display: grid;
     grid-template-columns: repeat(auto, 1fr);
     background-color: aliceblue;
     grid-auto-rows: minmax(150px, auto);
     gap: 0.5rem;
-
 }
 
 div {
